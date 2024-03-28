@@ -253,10 +253,12 @@ ul {
   padding-right: 78px;
 }
 /* footer */
-.footer {
-}
+/* .footer {
+  padding: 100px 0;
+} */
 .footer-section {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   font-weight: 400;
@@ -265,7 +267,6 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   max-width: 264px;
-  padding-top: 16px;
   padding-left: 78px;
 }
 .footer-logo {
@@ -277,7 +278,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-left: 78px;
-  padding-top: 100px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-studio {
   color: #f4f4fd;
