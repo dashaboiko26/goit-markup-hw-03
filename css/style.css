@@ -144,13 +144,12 @@ ul {
 }
 
 /* features */
+.features {
+  padding: 120px 0;
+}
 .visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+  position: fixed;
+  transform: scale(0);
 }
 .features-title {
   font-weight: 500;
@@ -158,9 +157,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 60px;
-  /* padding-bottom: 8px;
-  padding-top: 120px; */
 }
 
 .features-list {
@@ -168,7 +164,6 @@ ul {
   padding-right: 18px;
   display: flex;
   gap: 24px;
-  padding-bottom: 60px;
 }
 
 .features-item {
