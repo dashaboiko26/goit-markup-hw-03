@@ -247,7 +247,16 @@ ul {
   padding-bottom: 32px;
 }
 /* portfolio */
-.section-title {
+.portfolio-section {
+  padding: 120px 0;
+}
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portfolio-section-title {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -255,7 +264,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-title {
   font-weight: 500;
@@ -265,7 +274,7 @@ ul {
   color: #2e2f42;
   text-align: center;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .section-text {
   font-weight: 400;
@@ -282,8 +291,8 @@ ul {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding-left: 78px;
-  padding-right: 78px;
+  /* padding-left: 78px;
+  padding-right: 78px; */
 }
 /* footer */
 /* .footer {
