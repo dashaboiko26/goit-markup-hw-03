@@ -96,11 +96,7 @@ span {
 /* main section */
 .main-section {
   background-color: #2e2f42;
-}
-
-.wrap {
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
 }
 
 .main-section-title {
