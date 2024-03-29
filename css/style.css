@@ -74,6 +74,8 @@ span {
 .header-menu-link {
   font-weight: 500;
   color: #2e2f42;
+  align-items: center;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -144,6 +146,7 @@ span {
   height: 56px;
   border: none;
   margin-top: 48px;
+  min-width: 169px;
 }
 
 a {
