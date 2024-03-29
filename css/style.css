@@ -221,6 +221,7 @@ ul {
 .team-item {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -230,8 +231,9 @@ ul {
 
 .team-member {
   padding: 32px 0;
-  width: calc((100% - 72px) / 4);
+
   border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 .team-section-title {
   font-weight: 500;
@@ -240,11 +242,16 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
-.team-text {
+.team-section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   text-align: center;
   padding-bottom: 32px;
 }
