@@ -203,15 +203,12 @@ ul {
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
 }
-/* team */
+/* team section */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
-.team-title {
-  padding-top: 60px;
-  padding-bottom: 72px;
-}
 .team-item {
   background-color: #ffffff;
 }
@@ -223,10 +220,6 @@ ul {
   padding-left: 78px;
 }
 
-/* .team-wrap {
-  padding-top: 120px;
-  padding-bottom: 572px;
-} */
 .team-section-title {
   font-weight: 500;
   font-size: 20px;
